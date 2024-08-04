@@ -1,0 +1,11 @@
+.SecondRow {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+.SecondRow h3 {
+  margin: 0;
+  margin-right: 2rem;
+  font-size: 27px;
+  margin-left: 2rem;
+}

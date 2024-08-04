@@ -1,0 +1,14 @@
+.FirstRow {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr;
+  column-gap: 2rem;
+}
+.Horario {
+  text-align: right;
+}
+.Horario h3 {
+  text-align: left;
+}
+.Horario button {
+  margin-top: 1rem;
+}

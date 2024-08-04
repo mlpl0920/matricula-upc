@@ -1,0 +1,43 @@
+const DUMMY_ADMINISTRADORES = [
+  {
+    _id: "admin1",
+    username: "sebastian171000",
+    password: "dummy",
+    tipoDoc: "DNI",
+    documento: "73669841",
+    nombres: "Sebastian Manuel",
+    apellidos: "Pajes Leon",
+    email: "smpl2000@hotmail.com",
+    telefono: "987732072",
+    estado: true,
+    permiso: "principal",
+  },
+  {
+    _id: "admin2",
+    username: "mlpl2006",
+    password: "dummy",
+    tipoDoc: "DNI",
+    documento: "83629427",
+    nombres: "Mauricio Luis",
+    apellidos: "Pajes Leon",
+    email: "mlpl2006@hotmail.com",
+    telefono: "980723051",
+    estado: false,
+    permiso: "secundario",
+  },
+  {
+    _id: "admin3",
+    username: "fabi2508",
+    password: "dummy",
+    tipoDoc: "DNI",
+    documento: "71639546",
+    nombres: "Fabiola Irene",
+    apellidos: "Cieza Romero",
+    email: "fabiola201811028@hotmail.com",
+    telefono: "970893456",
+    estado: true,
+    permiso: "secundario",
+  },
+];
+
+export default DUMMY_ADMINISTRADORES;

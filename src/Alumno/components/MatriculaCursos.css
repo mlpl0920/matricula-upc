@@ -1,0 +1,81 @@
+.registro--curso,
+.registro--seccion,
+.registro--horario {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+
+  text-align: center;
+}
+
+.registro--curso i,
+.registro--seccion i,
+.registro--horario i {
+  cursor: pointer;
+  color: black;
+}
+.header--curso,
+.header--seccion,
+.header--horario {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+/* curso */
+.header--curso li:nth-child(1),
+.registro--curso li:nth-child(1) {
+  width: 20%;
+}
+.header--curso li:nth-child(2),
+.registro--curso li:nth-child(2) {
+  width: 40%;
+}
+.header--curso li:nth-child(3),
+.registro--curso li:nth-child(3) {
+  width: 20%;
+}
+.header--curso li:nth-child(4),
+.registro--curso li:nth-child(4) {
+  width: 20%;
+}
+/* seccion */
+.header--seccion li:nth-child(1),
+.registro--seccion li:nth-child(1) {
+  width: 20%;
+}
+.header--seccion li:nth-child(2),
+.registro--seccion li:nth-child(2) {
+  width: 20%;
+}
+.header--seccion li:nth-child(3),
+.registro--seccion li:nth-child(3) {
+  width: 20%;
+}
+.header--seccion li:nth-child(4),
+.registro--seccion li:nth-child(4) {
+  width: 20%;
+}
+.header--seccion li:nth-child(5),
+.registro--seccion li:nth-child(5) {
+  width: 20%;
+}
+/* .header--seccion li:nth-child(6),
+.registro--seccion li:nth-child(6) {
+  width: 16.7%;
+} */
+/* HORARIO */
+.header--horario li:nth-child(1),
+.registro--horario li:nth-child(1) {
+  width: 33.3%;
+}
+.header--horario li:nth-child(2),
+.registro--horario li:nth-child(2) {
+  width: 33.3%;
+}
+.header--horario li:nth-child(3),
+.registro--horario li:nth-child(3) {
+  width: 33.3%;
+}

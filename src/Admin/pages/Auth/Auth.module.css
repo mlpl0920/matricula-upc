@@ -1,0 +1,62 @@
+.Auth {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Input {
+  margin-bottom: 1rem;
+}
+.Input label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.Input input {
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+.Input input:focus {
+  outline: none;
+}
+.Auth form {
+  width: 25rem;
+  margin-bottom: 5vh;
+}
+.Auth form h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.Auth form button {
+  width: 100%;
+  padding: 13px 0;
+  border-radius: 5px;
+  border: none;
+  background: #573cd2;
+  color: white;
+  cursor: pointer;
+}
+.TopNavigation {
+  position: fixed;
+  width: 100%;
+  padding: 40px 80px;
+  background-color: unset;
+  color: #573cd2;
+}
+.TopNavigation > div {
+  align-items: baseline;
+}
+.Recuperar {
+  display: flex;
+}
+.Recuperar p {
+  color: black;
+  margin-right: 5px;
+}
+.Recuperar a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #573cd2;
+}

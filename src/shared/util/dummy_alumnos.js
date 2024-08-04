@@ -1,0 +1,46 @@
+const DUMMY_ALUMNOS = [
+  {
+    _id: "a1",
+    tipoDoc: "DNI",
+    documento: "73669841",
+    nombres: "Sebastian Manuel",
+    apellidos: "Pajes Leon",
+    sexo: "M",
+    ciclo: 7,
+    email: "smpl2000@hotmail.com",
+    telefono: "987732072",
+    direccion: "calle Polo Jimenez 171, San Miguel",
+    estado: true,
+    horario: [], //array of secciones.
+  },
+  {
+    _id: "a2",
+    tipoDoc: "DNI",
+    documento: "83629427",
+    nombres: "Mauricio Luis",
+    apellidos: "Pajes Leon",
+    sexo: "M",
+    ciclo: 1,
+    email: "mlpl2006@hotmail.com",
+    telefono: "980723051",
+    direccion: "calle Polo Jimenez 171, San Miguel",
+    estado: false,
+    horario: [],
+  },
+  {
+    _id: "a3",
+    tipoDoc: "DNI",
+    documento: "71639546",
+    nombres: "Fabiola Irene",
+    apellidos: "Cieza Romero",
+    sexo: "F",
+    ciclo: 7,
+    email: "fabiola201811028@hotmail.com",
+    telefono: "970893456",
+    direccion: "Av Pacasmayo, Callao",
+    estado: true,
+    horario: [],
+  },
+];
+
+export default DUMMY_ALUMNOS;
